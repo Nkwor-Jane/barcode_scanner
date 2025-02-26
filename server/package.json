@@ -1,0 +1,18 @@
+{
+  "name": "barcode_scanner",
+  "version": "1.0.0",
+  "description": "For a prototype barcode scanner ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "canvas": "^3.1.0",
+    "express": "^4.21.2",
+    "jsbarcode": "^3.11.6",
+    "mongoose": "^8.10.1",
+    "uuid": "^11.1.0"
+  }
+}
