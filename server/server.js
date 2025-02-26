@@ -1,7 +1,7 @@
 const express = require('express')
 const mongoose = require('mongoose')
 const JsBarcode = require("jsbarcode")
-const {createCanvas} = require("canvas")
+const {createCanvas, loadImaage} = require("@napi-rs/canvas")
 const {v4: uuidv4} = require("uuid")
 
 const app = express();
