@@ -41,7 +41,7 @@ function App() {
       Quagga.stop(); // Stop scanning once detected
 
       try {
-        const response = await axios.get(`http://localhost:5000/get-user/${barcode}`);
+        const response = await axios.get(`https://barcode-scanner-rvq0.onrender.com/get-user/${barcode}`);
         setUserData(response.data);
         setError("")
       } catch (error) {
