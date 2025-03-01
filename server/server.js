@@ -7,7 +7,7 @@ const {v4: uuidv4} = require("uuid")
 const app = express();
 app.use(express.json())
 
-mongoose.connect("mongodb://localhost:27017/barcodeDB")
+mongoose.connect(process.env.MONGO_URI)
     .then(() => console.log("MongoDB Connected"))
     .catch((err) => console.error("MonogoDB Connection Error:", err))
 
